@@ -1,0 +1,22 @@
+{
+    "name": "amp/pdfcrowd-bundle",
+    "type": "symfony-bundle",
+    "description": "",
+    "keywords": ["pdfcrowd", "pdf"],
+    "homepage": "",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hubert Perron",
+            "email": "hubert.perron@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "symfony/symfony": "2.*"
+    },
+    "autoload": {
+        "psr-0": { "Amp\\PDFCrowdBundle": "" }
+    },
+    "target-dir": "Amp/PDFCrowdBundle"
+}
