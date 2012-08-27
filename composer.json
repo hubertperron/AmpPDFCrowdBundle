@@ -24,7 +24,8 @@
                 },
                 "autoload": {
                     "files": ["pdfcrowd.php"]
-                }
+                },
+                "minimum-stability": "dev"
             }
         }
     ],
