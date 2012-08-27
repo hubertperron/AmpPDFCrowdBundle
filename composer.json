@@ -11,8 +11,8 @@
             "email": "hubert.perron@gmail.com"
         }
     ],
-    "repositories": {
-        "pdfcrowd-github": {
+    "repositories": [
+        {
             "type": "package",
             "package": {
                 "name": "pdfcrowd/pdfcrowd-php",
@@ -20,11 +20,14 @@
                 "source": {
                     "url": "git://github.com/pdfcrowd/pdfcrowd-php.git",
                     "type": "git",
-                    "reference": "origin/2.5"
+                    "reference": "2.5"
+                },
+                "autoload": {
+                    "files": ["pdfcrowd.php"]
                 }
             }
         }
-    },
+    ],
     "minimum-stability": "dev",
     "require": {
         "pdfcrowd/pdfcrowd-php": "2.5",
