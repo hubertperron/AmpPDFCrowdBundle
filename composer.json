@@ -23,13 +23,14 @@
                 },
                 "autoload": {
                     "files": ["pdfcrowd.php"]
-                }
+                },
+                "minimum-stability": "dev"
             }
         }
     ],
     "minimum-stability": "dev",
     "require": {
-        "pdfcrowd/pdfcrowd-php": "2.5",
+        "pdfcrowd/pdfcrowd-php": "*",
         "symfony/symfony": "2.*"
     },
     "autoload": {
