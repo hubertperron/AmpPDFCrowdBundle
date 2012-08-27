@@ -20,12 +20,11 @@
                 "source": {
                     "url": "git://github.com/pdfcrowd/pdfcrowd-php.git",
                     "type": "git",
-                    "reference": "2.5"
+                  
                 },
                 "autoload": {
                     "files": ["pdfcrowd.php"]
                 },
-                "minimum-stability": "dev"
             }
         }
     ],
