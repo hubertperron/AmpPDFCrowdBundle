@@ -17,10 +17,9 @@
             "package": {
                 "name": "pdfcrowd/pdfcrowd-php",
                 "version": "2.5",
-                "source": {
-                    "url": "git://github.com/pdfcrowd/pdfcrowd-php.git",
-                    "type": "git",
-                  
+                "dist": {
+                    "url": "http://pdfcrowd.com/static/clients/php/pdfcrowd-2.5-php.zip",
+                    "type": "zip"
                 },
                 "autoload": {
                     "files": ["pdfcrowd.php"]
