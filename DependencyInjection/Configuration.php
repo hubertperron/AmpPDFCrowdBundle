@@ -20,9 +20,12 @@ class Configuration implements ConfigurationInterface
         $treeBuilder = new TreeBuilder();
         $rootNode = $treeBuilder->root('amp_pdf_crowd');
 
-        // Here you should define the parameters that are allowed to
-        // configure your bundle. See the documentation linked above for
-        // more information on that topic.
+        $rootNode
+            ->children()
+                ->scalarNode('username')->isRequired()->end()
+                ->scalarNode('apikey')->isRequired()->end()
+            ->end()
+        ;
 
         return $treeBuilder;
     }
