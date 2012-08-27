@@ -1,3 +1,0 @@
-AmpPDFCrowdBundle_homepage:
-    pattern:  /hello/{name}
-    defaults: { _controller: AmpPDFCrowdBundle:Default:index }

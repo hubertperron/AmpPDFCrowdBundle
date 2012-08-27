@@ -1,7 +1,7 @@
 parameters:
-#    amp_pdf_crowd.example.class: Amp\PDFCrowdBundle\Example
+    amp_pdf_crowd.api.class: Amp\PDFCrowdBundle\Lib\PDFCrowd
 
 services:
-#    amp_pdf_crowd.example:
-#        class: %amp_pdf_crowd.example.class%
-#        arguments: [@service_id, "plain_value", %parameter%]
+    amp_pdf_crowd.api:
+        class: %amp_pdf_crowd.api.class%
+        arguments: [ %amp_pdf_crowd.username%, %amp_pdf_crowd.apikey% ]

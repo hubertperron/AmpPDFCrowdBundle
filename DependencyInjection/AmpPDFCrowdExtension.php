@@ -22,6 +22,9 @@ class AmpPDFCrowdExtension extends Extension
         $configuration = new Configuration();
         $config = $this->processConfiguration($configuration, $configs);
 
+        $container->setParameter('amp_pdf_crowd.username', $config['username']);
+        $container->setParameter('amp_pdf_crowd.apikey', $config['apikey']);
+
         $loader = new Loader\YamlFileLoader($container, new FileLocator(__DIR__.'/../Resources/config'));
         $loader->load('services.yml');
     }
