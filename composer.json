@@ -11,26 +11,9 @@
             "email": "hubert.perron@gmail.com"
         }
     ],
-    "repositories": [
-        {
-            "type": "package",
-            "package": {
-                "name": "pdfcrowd/pdfcrowd-php",
-                "version": "2.5",
-                "dist": {
-                    "url": "http://pdfcrowd.com/static/clients/php/pdfcrowd-2.5-php.zip",
-                    "type": "zip"
-                },
-                "autoload": {
-                    "files": ["pdfcrowd.php"]
-                },
-                "minimum-stability": "dev"
-            }
-        }
-    ],
     "minimum-stability": "dev",
     "require": {
-        "pdfcrowd/pdfcrowd-php": "*",
+        "pdfcrowd/pdfcrowd-php": "2.5",
         "symfony/symfony": "2.*"
     },
     "autoload": {
