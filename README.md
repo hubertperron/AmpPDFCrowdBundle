@@ -1,9 +1,9 @@
 AmpPDFCrowdBundle
 =================
 
-## Installation:
+## Installation
 
-Using composer
+### Using composer
 
     {
         "repositories": [
@@ -42,7 +42,7 @@ Using composer
     }
 ```
 
-## Configuration:
+## Configuration
 
 ``` yaml
 amp_pdf_crowd:
@@ -50,13 +50,11 @@ amp_pdf_crowd:
     apikey: the-api-key
 ```
 
-## Usage:
+## Usage
 
 ### Controller
 
 ``` php
-<?php
-
 $pdfCrowd = $this->get('amp_pdf_crowd.api');
 $url = $this->generateUrl('route_name', array(), true);
 
