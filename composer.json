@@ -12,6 +12,22 @@
         }
     ],
     "minimum-stability": "dev",
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "pdfcrowd/pdfcrowd-php",
+                "version": "2.5",
+                "dist": {
+                    "url": "http://pdfcrowd.com/static/clients/php/pdfcrowd-2.5-php.zip",
+                    "type": "zip"
+                },
+                "autoload": {
+                    "files": ["pdfcrowd.php"]
+                }
+            }
+        }
+    ],
     "require": {
         "pdfcrowd/pdfcrowd-php": "2.5",
         "symfony/symfony": "2.*"

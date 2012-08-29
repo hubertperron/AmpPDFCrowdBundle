@@ -3,6 +3,8 @@ AmpPDFCrowdBundle
 
 This bundle act as a thin wrapper over the PDFCrowd API to ease integration with Symfony.
 
+[![Build Status](https://secure.travis-ci.org/hubertperron/AmpPDFCrowdBundle.png)](http://travis-ci.org/hubertperron/AmpPDFCrowdBundle)
+
 ## Installation
 
 ### Using composer
