@@ -59,7 +59,7 @@ $pdfCrowd = $this->get('amp_pdf_crowd.api');
 $url = $this->generateUrl('route_name', array(), true);
 
 $pdfData = $pdfCrowd->convertURI($url);
-file_put_contents($this->container->getParameter('kernel.root_dir') . '/web/pdfs/example.pdf', $pdfData); // Make sure this directory is writable
+file_put_contents($this->container->getParameter('kernel.root_dir') . '/../web/pdfs/example.pdf', $pdfData); // Make sure this directory is writable
 ```
 
 ### Command
