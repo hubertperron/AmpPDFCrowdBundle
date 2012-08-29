@@ -1,9 +1,9 @@
 {
     "name": "amp/pdfcrowd-bundle",
     "type": "symfony-bundle",
-    "description": "",
+    "description": "A Symfony2 bundle for working with the PDFCrowd API",
     "keywords": ["pdfcrowd", "pdf"],
-    "homepage": "",
+    "homepage": "https://github.com/hubertperron/AmpPDFCrowdBundle",
     "license": "MIT",
     "authors": [
         {
@@ -11,7 +11,6 @@
             "email": "hubert.perron@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
     "repositories": [
         {
             "type": "package",
