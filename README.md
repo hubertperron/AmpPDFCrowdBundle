@@ -1,9 +1,9 @@
 AmpPDFCrowdBundle
 =================
 
-## Installation and configuration:
+## Installation:
 
-Using [composer](http://packagist.org)
+Using composer
 
     {
         "repositories": [
@@ -27,14 +27,6 @@ Using [composer](http://packagist.org)
         }
     }
 
-### Configuration example
-
-``` yaml
-amp_pdf_crowd:
-    username: your-username
-    apikey: the-api-key
-```
-
 ### Add the bundle to your application kernel
 
 ``` php
@@ -50,7 +42,15 @@ amp_pdf_crowd:
     }
 ```
 
-## Usage example
+## Configuration:
+
+``` yaml
+amp_pdf_crowd:
+    username: your-username
+    apikey: the-api-key
+```
+
+## Usage:
 
 ### Controller
 
