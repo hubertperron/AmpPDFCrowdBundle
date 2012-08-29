@@ -1,6 +1,8 @@
 AmpPDFCrowdBundle
 =================
 
+This bundle act as a thin wrapper over the PDFCrowd API to ease integration with Symfony.
+
 ## Installation
 
 ### Using composer
@@ -30,16 +32,15 @@ AmpPDFCrowdBundle
 ### Add the bundle to your application kernel
 
 ``` php
-<?php
-    // File: app/AppKernel.php
-    public function registerBundles()
-    {
-        return array(
-            // ...
-            new Amp\PDFCrowdBundle\AmpPDFCrowdBundle(),
-            // ...
-        );
-    }
+// File: app/AppKernel.php
+public function registerBundles()
+{
+    return array(
+        // ...
+        new Amp\PDFCrowdBundle\AmpPDFCrowdBundle(),
+        // ...
+    );
+}
 ```
 
 ## Configuration
@@ -59,7 +60,9 @@ $pdfCrowd = $this->get('amp_pdf_crowd.api');
 $url = $this->generateUrl('route_name', array(), true);
 
 $pdfData = $pdfCrowd->convertURI($url);
-file_put_contents($this->container->getParameter('kernel.root_dir') . '/../web/pdfs/example.pdf', $pdfData); // Make sure this directory is writable
+$fileName = $this->container->getParameter('kernel.root_dir') . '/../web/pdfs/example.pdf';
+
+file_put_contents($fileName, $pdfData); // Make sure this directory is writable
 ```
 
 ### Command
