@@ -16,9 +16,9 @@
             "type": "package",
             "package": {
                 "name": "pdfcrowd/pdfcrowd-php",
-                "version": "2.5",
+                "version": "2.6",
                 "dist": {
-                    "url": "http://pdfcrowd.com/static/clients/php/pdfcrowd-2.5-php.zip",
+                    "url": "http://pdfcrowd.com/static/clients/php/pdfcrowd-2.6-php.zip",
                     "type": "zip"
                 },
                 "autoload": {
@@ -28,7 +28,7 @@
         }
     ],
     "require": {
-        "pdfcrowd/pdfcrowd-php": "2.5",
+        "pdfcrowd/pdfcrowd-php": "2.6",
         "symfony/symfony": "2.*"
     },
     "autoload": {
